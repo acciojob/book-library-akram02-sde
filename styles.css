@@ -4,14 +4,6 @@
     box-sizing: border-box;
     background-color: #f8f8f8;
 }
-.container {
-    position: relative;
-    top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: #f8f8f8;
-}
 
 .book-library {
     display: flex;
@@ -20,6 +12,7 @@
     align-items: center;
     width: 50vw;
     gap: 15px;
+	padding: 0px;
     border: none;
     border-radius: 4px;
     box-shadow: 0px 10px 3px rgba(0, 0, 0, 0.5);
@@ -38,6 +31,8 @@ h2 {
 
 div > img {
     margin-inline: 80px;
+	height: 300px;
+	width: 200px
 
 }
 
@@ -49,7 +44,7 @@ div > img {
 .author {
     font-weight: lighter;
     margin-left: 10px;
-    color: rgb(119, 119, 119);
+    color: rgb(0,0,0), rgb(119, 119, 119);
 }
 
 .price {
